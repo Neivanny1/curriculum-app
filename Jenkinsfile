@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('check files') {
+      steps {
+        sh 'ls -ltr'
+      }
+    }
+
   }
 }

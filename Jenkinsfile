@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('Checkout Coode') {
+    stage('Checkout Code') {
       steps {
         git(url: 'https://github.com/Neivanny1/curriculum-app', branch: 'master')
       }
